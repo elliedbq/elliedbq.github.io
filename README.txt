@@ -1,56 +1,30 @@
-
-TITLE: 
-Marble - Fully Responsive Free HTML5 template
-
-AUTHOR:
-DESIGNED & DEVELOPED by FREEHTML5.co
-
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
+Verti by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-CREDITS:
+A super simple + modern responsive website template. Took a slightly different direction
+on the mobile version's slide out nav (floating button versus a full on titlebar).
 
-Bootstrap
-http://getbootstrap.com/
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
 
-jQuery
-http://jquery.com/
+(* = Not included)
 
-jQuery Easing
-http://gsgd.co.uk/sandbox/jquery/easing/
+Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
 
-Modernizr
-http://modernizr.com/
+AJ
+aj@lkn.io | @ajlkn
 
-Google Fonts
-https://www.google.com/fonts/
 
-Icomoon
-https://icomoon.io/app/
+Credits:
 
-Respond JS
-https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
+	Demo Images:
+		Unsplash (unsplash.com)
 
-animate.css
-http://daneden.me/animate
+	Icons:
+		Font Awesome (fontawesome.io)
 
-jQuery Waypoints
-https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
-
-Demo Images:
-http://pexels.com
-
-Owl Carousel
-http://www.owlcarousel.owlgraphic.com/
-
-Stellar Parallax
-http://markdalgleish.com/projects/stellar.js/
-
-jQuery counTo
-https://github.com/mhuggins/jquery-countTo
-
-Google Map
-https://maps.google.com/
-
+	Other:
+		jQuery (jquery.com)
+		Responsive Tools (github.com/ajlkn/responsive-tools)
