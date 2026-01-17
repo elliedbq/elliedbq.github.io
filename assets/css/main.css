@@ -2109,7 +2109,7 @@ ul.menu li:first-child {
 }
 
 #footer-wrapper {
-	padding: 6em 0 8em 0;
+	padding: 2em 0 2.5em 0;
 }
 
 /* Header */
@@ -2285,7 +2285,7 @@ ul.menu li:first-child {
 }
 
 #banner h4 {
-	font-size: 1.5em;
+	font-size: 1.75em;
 	margin: 0.1em 0 0.35em 0;
 }
 
@@ -2476,6 +2476,7 @@ ul.menu li:first-child {
 
 #footer {
 	margin-top: 0;
+	font-size: 1.1em;
 }
 
 #footer a {
@@ -2483,8 +2484,8 @@ ul.menu li:first-child {
 }
 
 #copyright {
-	color: #aaa;
-	padding: 4em 0 0 0;
+	color: #444;
+	padding: 1.5em 0 0 0;
 	text-align: center;
 }
 
