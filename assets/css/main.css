@@ -1970,6 +1970,12 @@ ul.menu li:first-child {
 	backface-visibility: hidden;
 }
 
+.box.feature.link-wrapper {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+
 .box.feature:hover {
 	transform: translateY(-4px);
 	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
@@ -1986,6 +1992,11 @@ ul.menu li:first-child {
 .box.feature p {
 	margin: 0;
 	line-height: 1.25em;
+}
+
+.box.feature a.image.featured {
+	display: block;
+	position: static;
 }
 
 .box.feature .image {
