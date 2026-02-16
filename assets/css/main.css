@@ -2349,6 +2349,7 @@ ul.menu li:first-child {
 	align-items: center;
 	gap: 0.75em;
 	margin: 1em 0 0 0;
+	flex-wrap: wrap;
 }
 
 .button-row .resume-btn {
