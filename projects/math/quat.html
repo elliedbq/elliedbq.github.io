@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<!--
+	Verti by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Ellie Kung - Quaternions</title>
+    <link rel="icon" href="../../images/icon.jpeg" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+
+</head>
+
+<body class="is-preload homepage">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <div id="header-wrapper">
+            <header id="header" class="container">
+
+            </header>
+        </div>
+
+        <!-- Banner -->
+        <div id="banner-wrapper">
+
+            <!-- Title-->
+            <div id="banner" class="box container compact">
+
+                <h2>Quaternion Rotation</h2>
+                <h3>Spring 2026</h3>
+
+
+                <div class="button-row">
+                    <div class="skill">MATLAB</div>
+                </div>
+            </div>
+            <br>
+
+            <!--Content-->
+            <div id="banner" class="box container compact">
+                <h4>Overview</h4>
+                <p>When keeping track of rotations in a local frame, two 
+                    options are using matrices or quaternions. When using 
+                    matrices, each rotation is represented by a matrix and 
+                    needs to be remultiplied every new rotation. This can 
+                    result in Gimbal Lock, an instance when a degree of 
+                    freedom is lost due to the matrix multiplication (shown
+                    in bottom left graph). A way to avoid this is to use
+                    quaternions to track rotation. Not only is a more 
+                    computationally efficient, as stacked up rotations can all 
+                    be represented by one quaternion, but it also diminishes
+                    the any likely hood of gimbal lock (shown by top left graph).
+
+                    
+                </p>
+                <img src="titledquaternion.gif" alt="Profile Picture"
+                    style="width: 75%; border-radius: 6px; margin: 0 auto; display: block;">
+                <br>
+                <p>Each blue pyramid is the initial starting point. Then 
+                    each pyramid is rotated 90 degrees about the y axis. 
+                    The left column shows a programmed rotation about the x axis
+                    while the right column shows a programmed rotation about the 
+                    z axis. Seen in the bottom left, the pyramid still rotates 
+                    about the z axis, even though it is programmed to rotate about
+                    the x axis. This is due to gimbal lock when multiplying matrices.
+                </p>
+
+                <p>
+                    Below is the poster I presented to explain to my classmates. 
+                    It also includes relevant formulas, and a more mathematical explanation.    
+                </p>
+
+                <embed src="quat_poster.pdf" type="application/pdf" width="100%" height="500px" />
+
+                
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-4 col-12-medium">
+                    </div>
+                    <div class="col-4 col-12-medium">
+
+                        <a href="index.html" class="button icon solid fa-arrow-circle-right">
+                            More Math </a>
+                    </div>
+                </div>
+                <!--go home-->
+                <div class="row">
+                    <div class="col-4 col-12-medium">
+                    </div>
+                    <div class="col-4 col-12-medium">
+
+                        <a href="../../index.html" class="button icon solid fa-arrow-circle-right">
+                            More Projects </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Footer -->
+    <div id="footer-wrapper">
+        <footer id="footer" class="container">
+
+            <div class="row">
+                <div class="col-12">
+                    <div id="copyright">
+                        <ul class="menu">
+                            <li>&copy; 2026 Ellie Kung</li>
+                            <li><a href="mailto:ekung@olin.edu">ekung@olin.edu</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    </div>
+
+    <!-- Scripts -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

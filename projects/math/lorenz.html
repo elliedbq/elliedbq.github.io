@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<!--
+	Verti by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Ellie Kung - Lorenz Equations</title>
+    <link rel="icon" href="../../images/icon.jpeg" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+
+</head>
+
+<body class="is-preload homepage">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <div id="header-wrapper">
+            <header id="header" class="container">
+
+            </header>
+        </div>
+
+        <!-- Banner -->
+        <div id="banner-wrapper">
+
+            <!-- Title-->
+            <div id="banner" class="box container compact">
+
+                <h2>Lorenz Equations</h2>
+                <h3>Spring 2026</h3>
+
+
+                <div class="button-row">
+                    <div class="skill">Matlab</div>
+                </div>
+            </div>
+            <br>
+
+            <!--Content-->
+            <div id="banner" class="box container compact">
+                <h4>Overview</h4>
+                <p>The Lorenz equations are a set of three coupled, nonlinear
+                    first-order differential equations that represent a simplified
+                    model of atmospheric convection. The are famous for demonstrating
+                    deterministic chaos, where small changes in initial conditions
+                    produce very different results.
+                </p>
+                <p>Below is an animation I made which shows the initial points
+                    (1, 1, 1) and (1.01, 1, 1) and their solution, using ode45.
+                    Initially, the paths stay similar, but at a certain point, 
+                    they diverge completely.
+                </p>
+                <img src="full_lorenz.gif" alt="Lorenz Equation Simulation"
+                    style="width: 75%; border-radius: 6px; margin: 0 auto; display: block;">
+                <br>
+
+                <h4>Learnings</h4>
+                <p>The Lorenz equations are a simplification of the Navier-Stokes 
+                    equations, but they can also be derived from a chaotic 
+                    water wheel. After doing the derivation, I looked into the 
+                    critical points and their stability. By changing the value of
+                    the variable 
+                    'r', the eigenvalue, and thus the stability of each critical 
+                    point would change. I explored different r values and plotted
+                    different critical points with different eigenvalues, noting
+                    that the positive eigenvalues created unstable behavior 
+                    while the negative eigenvalues made the solution path go 
+                    towards the critical point. 
+                </p>
+                <p>
+                    Below is the presentation I presented to explain to my classmates the work I did. 
+                    It includes relevant formulas, a more mathematical explanation, and more graphs.    
+                </p>
+
+<iframe src="https://olincollege-my.sharepoint.com/personal/ekung_olin_edu/_layouts/15/Doc.aspx?sourcedoc={90b3d15d-4252-4785-bd66-988f3f0cdac1}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="100%" height="500px" frameborder="0" title="PowerPoint Viewer">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+                
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-4 col-12-medium">
+                    </div>
+                    <div class="col-4 col-12-medium">
+
+                        <a href="index.html" class="button icon solid fa-arrow-circle-right">
+                            More Math </a>
+                    </div>
+                </div>
+                <!--go home-->
+                <div class="row">
+                    <div class="col-4 col-12-medium">
+                    </div>
+                    <div class="col-4 col-12-medium">
+
+                        <a href="../../index.html" class="button icon solid fa-arrow-circle-right">
+                            More Projects </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Footer -->
+    <div id="footer-wrapper">
+        <footer id="footer" class="container">
+
+            <div class="row">
+                <div class="col-12">
+                    <div id="copyright">
+                        <ul class="menu">
+                            <li>&copy; 2026 Ellie Kung</li>
+                            <li><a href="mailto:ekung@olin.edu">ekung@olin.edu</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    </div>
+
+    <!-- Scripts -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
