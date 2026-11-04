@@ -1996,7 +1996,7 @@ ul.menu li:first-child {
 
 .box.feature a.image.featured {
 	display: block;
-	position: static;
+	position: center;
 }
 
 .box.feature .image {
