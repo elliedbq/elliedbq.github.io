@@ -880,6 +880,22 @@
 				padding-left: 0;
 			}
 		}
+
+		ul.dash-list {
+			margin: 0 0 1.5em 0;
+			display: block;
+
+			li {
+				position: relative;
+				padding: 0 0 0 1.25em;
+
+				&:before {
+					content: "-";
+					position: absolute;
+					left: 0;
+				}
+			}
+		}
 	}
 
 /* Footer */
